@@ -7,7 +7,7 @@ const Footer = () => {
                 {/* <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="/"></use></svg>
             </a> */}
-                <p class="text-muted">© UNAB - 2022 Versión 1.0.0.2</p>
+                <p class="text-muted">© UNAB - 2022 Versión 1.0.0.3</p>
             </div>
 
             <div class="col mb-3">

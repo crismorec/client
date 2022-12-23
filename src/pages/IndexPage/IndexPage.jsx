@@ -24,7 +24,7 @@ const IndexPage = () => {
         <Link to="/galeria">Ver galeria</Link>
         <br></br>
         {/* <Link to="/detalles/:coaster_id">Ver detalles</Link> */}
-        <Link to="/detalles/63a38792cd3b82001c6cc125">Ver Hulk -></Link>
+        <Link to="/detalles/63a38792cd3b82001c6cc125">Ver Hulk __ </Link>
         {/* <Link to="/detalles/5e8ef56a60fa824d1e2db3be">Ver Hulk</Link> */}
       </div>
 

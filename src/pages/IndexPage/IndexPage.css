@@ -1,0 +1,74 @@
+body{
+  /* background: linear-gradient(white, #457b9d) fixed; */
+  background: linear-gradient(white,whitesmoke ) fixed; 
+  color: #457b9d;
+}
+
+.title {  
+    background-color: whitesmoke;
+    color: green    
+}
+
+.options {  
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --background-color: black;
+    --text-color: hsl(0, 0%, 100%);
+  }
+  body {
+    margin: 0;
+  }
+  .wrapper {
+    display: grid;
+    place-content: center;
+    background-color: var(--background-color);
+    min-height: 10vh;
+    font-family: "Oswald", sans-serif;
+    font-size: clamp(0.5rem, 6vw, 6rem);
+    font-weight: 70;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+  
+  .wrapper > div {
+    grid-area: 1/1/-1/-1;
+  }
+  .top {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+  }
+  .bottom {
+    clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+    color: transparent;
+    background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: translateX(-0.02em);
+  }
+
+  horizontal-cut-text {
+    font-size: $extra-large * 1.2;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    $dark-pink: darken($pink, 10%);
+    $stripe-size: 3%;
+    background:
+    -webkit-linear-gradient(270deg, $dark-pink, $dark-pink 50%,      transparent 50%),
+    -webkit-repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent $stripe-size,
+      white $stripe-size,
+      white $stripe-size * 2,
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+      text-shadow: 6px 6px rgba(black, 0.4),
+}

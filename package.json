@@ -1,6 +1,6 @@
 {
-  //"homepage":"https://crismorec.github.io/client" ,
-  "homepage": ".",
+  "homepage":"https://crismorec.github.io/client" ,
+  //"homepage": ".",
   "name": "client",
   "version": "0.1.0",
   "private": true,
